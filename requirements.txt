@@ -1,0 +1,44 @@
+# Core Dependencies
+langchain==0.1.0
+langchain-community==0.0.13
+langchain-core==0.1.10
+
+# LLM Providers
+openai>=1.0.0
+langchain-openai==0.0.2
+
+# Vector Store & Embeddings
+chromadb>=0.4.22
+sentence-transformers>=2.2.2
+
+# Memory & State Management
+langchain-mongodb>=0.1.0
+redis>=5.0.0
+
+# Async & Streaming
+aiohttp>=3.9.0
+asyncio>=3.4.3
+httpx>=0.25.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+loguru>=0.7.0
+python-json-logger>=2.0.0
+
+# Development Tools
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+# Optional: FastAPI for API服务
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+websockets>=12.0
